@@ -10,7 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 
-@Service // x il basic auth
+@Service // x il basic auth || ma serve anche per JWT per recuperare i dati dell'utente dal repository
 public class CustomerService implements UserDetailsService { // avra la funzionalita' di interagire con il DB x caricare i dettagli dell utente richiesti da spring x autentificarlo
 
     @Autowired
